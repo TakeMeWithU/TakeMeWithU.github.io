@@ -16,12 +16,4 @@ lines = file1.readlines()
 lines.pop(0)
 for line in lines:
     line = line.replace('\n', '')
-    values = line.split(';')
-    
-    html = ""
-    html += "<div class='col-lg-6 menu-item filter-" + values[2] + "'>"
-    html += '<img src="assets/img/menu/'+ values[2] +'/raviolisFrits.jpg" class="menu-img" alt="">'
-    html += '<div class="menu-content">'
-    html += '<a>'+ values[1] + '</a><span>' + values[3] + '€</span></div>'
-    html += '<div class="menu-ingredients">('+ values[4] +'pcs)</div></div>'
-    print(html)
+    print(line)

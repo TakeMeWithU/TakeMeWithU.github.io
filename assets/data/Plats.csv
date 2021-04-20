@@ -1,9 +1,9 @@
 Id;Meal;Description;Category;Price;Quantity;Image
 1;Nem au porc ou au poulet;;starters;6;(5pcs);nem
 2;Nem aux crevettes;;starters;6;(5pcs);nem
-3;Nem aux lÈgumes;;starters;5;(5pcs);nem
+3;Nem aux l√©gumes;;starters;5;(5pcs);nem
 4;Samoussa au boeuf ou au poulet;;starters;6;(5pcs);samoussa
-5;Samoussa aux lÈgumes;;starters;5;(5pcs);samoussa
+5;Samoussa aux l√©gumes;;starters;5;(5pcs);samoussa
 6;Beignets de crevettes;;starters;5;(5pcs);beignets
 7;Accras de morue;;starters;6;(5pcs);accras
 8;Nuggets de poulet;;starters;5;(5pcs);nuggets
@@ -14,122 +14,122 @@ Id;Meal;Description;Category;Price;Quantity;Image
 13;Hakao aux crevettes;;starters;6;(5pcs);hakao
 14;Aile de poulet farcie;;starters;5;(1pc);ailePouletFarcie
 15;Crabe farcie;;starters;5;(1pc);crabeFarcie
-16;Banh bao - Brioche ‡ la vapeur;;starters;3,5;(1pc);banhBao
-17;PanachÈ díentrÈes ‡ partger;Nems, Samoussas, Beignets de crevettes, Raviolis frits, Xiumai, Hakao, Accras de morue;starters;20;(20pcs);panacheEntrees
+16;Banh bao - Brioche √† la vapeur;;starters;3.5;(1pc);banhBao
+17;Panach√© d‚Äôentr√©es √† partger;Nems, Samoussas, Beignets de crevettes, Raviolis frits, Xiumai, Hakao, Accras de morue;starters;20;(20pcs);panacheEntrees
 18;Rouleaux de printemps au boeuf;;rolls;6;(2pcs);rolls
 19;Rouleaux de printemps aux crevettes;;rolls;6;(2pcs);rolls
 20;Rouleaux de printemps au poulet;;rolls;6;(2pcs);rolls
-21;Rouleaux de printemps vÈgÈtariens;;rolls;6;(2pcs);rolls
-22;Salade díananas aux crevettes;;salads;9;;crevettes
+21;Rouleaux de printemps v√©g√©tariens;;rolls;6;(2pcs);rolls
+22;Salade d‚Äôananas aux crevettes;;salads;9;;crevettes
 23;Salade de poulet croustillant sauce carotte;;salads;9;;poulet
 24;Salade de mangue vert au canard;;salads;9;;canard
-25;Salade boeuf cru marinÈ au citron vert;;salads;12;;búuf
-26;Bo Bun Nem - Vermicelle de riz, boeuf sautÈ, nems frits;;salads;10;;boBun
-27;Bo Bun Tom - Vermicelle de riz, crevettes sautÈes ‡ la citronnelle, nems frits.;;salads;10;;boBun
-28;Bo Bun Chay - Vermicelle de riz, tofu sautÈ aux lÈgumes, nem frits.;;salads;8;;boBun
-29;Nouilles sautÈes au porc laquÈ ou au poulet;;noodlesRices;10;;nouilles
-30;Nouilles sautÈes aux crevettes ou au boeuf;;noodlesRices;12;;nouilles
-31;Nouilles sautÈes aux fruits de mer;;noodlesRices;14;;nouilles
-32;Nouilles sautÈes aux lÈgumes et tofu;;noodlesRices;10;;nouilles
-33;Pad Thai -P‚tes de riz sautÈes aux crevettes;;noodlesRices;12;;padThai
-34;Pad Thai - P‚tes de riz sautÈes au poulet;;noodlesRices;12;;padThai
-35;Riz sautÈ au porc laquÈ ou au poulet;;noodlesRices;12;;riz
-36;Riz sautÈ aux crevettes ou au boeuf;;noodlesRices;12;;riz
-37;Pho - P‚tes de riz au boeuf;;soups;10;;pho
-38;Bun Bo Hue - Vermicelles de riz au boeuf ‡ la citronnelle;;soups;10;;bunBoHue
-39;Hu Tieu - Vermicelles de riz aux crevettes et porc laquÈ;;soups;10;;huTieu
-40;Porc au caramel traditionnel poivrÈ;;meals;12;1 accompagnement de votre choix;porcCaramel
-41;Porc laquÈ;;meals;12;1 accompagnement de votre choix;porcLaque
+25;Salade boeuf cru marin√© au citron vert;;salads;12;;b≈ìuf
+26;Bo Bun Nem - Vermicelle de riz, boeuf saut√©, nems frits;;salads;10;;boBun
+27;Bo Bun Tom - Vermicelle de riz, crevettes saut√©es √† la citronnelle, nems frits.;;salads;10;;boBun
+28;Bo Bun Chay - Vermicelle de riz, tofu saut√© aux l√©gumes, nem frits.;;salads;8;;boBun
+29;Nouilles saut√©es au porc laqu√© ou au poulet;;noodlesRices;10;;nouilles
+30;Nouilles saut√©es aux crevettes ou au boeuf;;noodlesRices;12;;nouilles
+31;Nouilles saut√©es aux fruits de mer;;noodlesRices;14;;nouilles
+32;Nouilles saut√©es aux l√©gumes et tofu;;noodlesRices;10;;nouilles
+33;Pad Thai -P√¢tes de riz saut√©es aux crevettes;;noodlesRices;12;;padThai
+34;Pad Thai - P√¢tes de riz saut√©es au poulet;;noodlesRices;12;;padThai
+35;Riz saut√© au porc laqu√© ou au poulet;;noodlesRices;12;;riz
+36;Riz saut√© aux crevettes ou au boeuf;;noodlesRices;12;;riz
+37;Pho - P√¢tes de riz au boeuf;;soups;10;;pho
+38;Bun Bo Hue - Vermicelles de riz au boeuf √† la citronnelle;;soups;10;;bunBoHue
+39;Hu Tieu - Vermicelles de riz aux crevettes et porc laqu√©;;soups;10;;huTieu
+40;Porc au caramel traditionnel poivr√©;;meals;12;1 accompagnement de votre choix;porcCaramel
+41;Porc laqu√©;;meals;12;1 accompagnement de votre choix;porcLaque
 42;Poulet au curry rouge;;meals;12;1 accompagnement de votre choix;pouletCurry
 43;Poulet au gingembre et feuilles de citronnier;;meals;12;1 accompagnement de votre choix;pouletGing
 44;Poulet aux noix de cajou, poivron, oignon;;meals;12;1 accompagnement de votre choix;pouletCajou
 45;Seiche au sel et poivre;;meals;14;1 accompagnement de votre choix;seiche
-46;Seiche saisie aux 5 Èpices;;meals;14;1 accompagnement de votre choix;seiche
-47;Seiche sautÈes aux basilic Thai, piments, poivrons;;meals;14;1 accompagnement de votre choix;seiche
-48;Boeuf aux oignons;;meals;14;1 accompagnement de votre choix;búuf
-49;Boeuf sautÈes aux basilic Thai, piments, poivrons;;meals;14;1 accompagnement de votre choix;boeuf
-50;ìBo luc lacî DÈs de boeuf marinÈs et sautÈs;;meals;14;1 accompagnement de votre choix;boLucLac
-51;Crevettes grillÈes aux sel et poivre;;meals;12;1 accompagnement de votre choix;crevettes
-52;Crevettes ‡ la sauce aigre-douce ou piquante;;meals;12;1 accompagnement de votre choix;crevettes
-53;Crevettes sautÈes aux basilic Thai, piments, poivrons;;meals;12;1 accompagnement de votre choix;crevettes
-54;Canard laquÈ;;meals;14;1 accompagnement de votre choix;canardLaque
-55;EmincÈ de canard ‡ líananas;;meals;14;1 accompagnement de votre choix;canardEmince
-56;Magret de canart marinÈ au miel et soja;;meals;14;1 accompagnement de votre choix;magretCanard
-57;PavÈ de thon grillÈ ‡ la sauce teriyaki;;meals;14;1 accompagnement de votre choix;paveThon
-58;Pave de saumon ‡ la sauce piquante ou 5 Èpices;;meals;14;1 accompagnement de votre choix;paveSaumon
+46;Seiche saisie aux 5 √©pices;;meals;14;1 accompagnement de votre choix;seiche
+47;Seiche saut√©es aux basilic Thai, piments, poivrons;;meals;14;1 accompagnement de votre choix;seiche
+48;Boeuf aux oignons;;meals;14;1 accompagnement de votre choix;b≈ìuf
+49;Boeuf saut√©es aux basilic Thai, piments, poivrons;;meals;14;1 accompagnement de votre choix;boeuf
+50;Bo Luc Lac - D√©s de boeuf marin√©s et saut√©s;;meals;14;1 accompagnement de votre choix;boLucLac
+51;Crevettes grill√©es aux sel et poivre;;meals;12;1 accompagnement de votre choix;crevettes
+52;Crevettes √† la sauce aigre-douce ou piquante;;meals;12;1 accompagnement de votre choix;crevettes
+53;Crevettes saut√©es aux basilic Thai, piments, poivrons;;meals;12;1 accompagnement de votre choix;crevettes
+54;Canard laqu√©;;meals;14;1 accompagnement de votre choix;canardLaque
+55;Eminc√© de canard √† l‚Äôananas;;meals;14;1 accompagnement de votre choix;canardEmince
+56;Magret de canart marin√© au miel et soja;;meals;14;1 accompagnement de votre choix;magretCanard
+57;Pav√© de thon grill√© √† la sauce teriyaki;;meals;14;1 accompagnement de votre choix;paveThon
+58;Pave de saumon √† la sauce piquante ou 5 √©pices;;meals;14;1 accompagnement de votre choix;paveSaumon
 59;Tofu farci aux champignons noirs et vermicelles;;meals;10;1 accompagnement de votre choix;tofu
-60;Nouilles sautÈes aux lÈgumes;;accompagniments;5;;nouilles
+60;Nouilles saut√©es aux l√©gumes;;accompagniments;5;;nouilles
 61;Riz cantonnais;;accompagniments;5;;rizCan
-62;Riz sautÈ ‡ líail;;accompagniments;5;;rizAil
-63;Riz nature parfumÈ;;accompagniments;2;;riz
-64;ìBanh Miî porc laquÈ;;sandwichs;8;;banhMi
-65;Maki: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);maki
-66;Maki: Avocat cheese/ChËvre miel/Concombre chees;;japon;6;(8pcs);maki
-67;Maki: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);maki
-68;Maki: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);maki
-69;Maki: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);maki
-70;Maki: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);maki
-71;Maki: Avocat/Concombre;;japon;4.5;(8pcs);maki
-72;California: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);california
-73;California: Avocat cheese/ChËvre miel/Concombre chees;;japon;6;(8pcs);california
-74;California: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);california
-75;California: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);california
-76;California: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);california
-77;California: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);california
-78;California: Avocat/Concombre;;japon;4.5;(8pcs);california
-79;Saumon rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
-80;Saumon rolls: Avocat cheese/ChËvre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
-81;Saumon rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
-82;Saumon rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
-83;Saumon rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
-84;Saumon rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
-85;Saumon rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
-86;Printemps: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);printemps
-87;Printemps: Avocat cheese/ChËvre miel/Concombre chees;;japon;6;(8pcs);printemps
-88;Printemps: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);printemps
-89;Printemps: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);printemps
-90;Printemps: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);printemps
-91;Printemps: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);printemps
-92;Printemps: Avocat/Concombre;;japon;4.5;(8pcs);printemps
-93;Neige rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
-94;Neige rolls: Avocat cheese/ChËvre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
-95;Neige rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
-96;Neige rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
-97;Neige rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
-98;Neige rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
-99;Neige rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
-100;Signature rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);signatureRolls
-101;Signature rolls: Avocat cheese/ChËvre miel/Concombre chees;;japon;6;(8pcs);signatureRolls
-102;Signature rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);signatureRolls
-103;Signature rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);signatureRolls
-104;Signature rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);signatureRolls
-105;Signature rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);signatureRolls
-106;Signature rolls: Avocat/Concombre;;japon;4.5;(8pcs);signatureRolls
-107;Sashimi: Thon ou Saumon;;japon;8;(5pcs);sashimi
-108;Sushi: Thon ou Saumon;;japon;6;(4pcs);sushiThon
-109;Sushi: Crevettes;;japon;6;(4pcs);sushiCrevettes
-110;Sushi: Saumon avocat;;japon;7;(4pcs);sushiSaumonAvocat
-111;Sushi: Saumon cheese;;japon;7;(4pcs);sushiSaumonCheese
-112;Sushi: Crevettes avocat;;japon;7;(4pcs);sushiCrevettesAvocat
-113;Salade d'algue;;japon;5;;saladeAlgue
-114;Tarte Saumon ou Thon, avocat;;japon;6;;tarteSaumon
-115;Riz vinaigrÈ;;japon;2.5;;rizVinaigre
-116;ìBanh Miî boeuf ‡ la citronnelle;;sandwichs;8;;banhMi
-117;Nem banane-chocolat;;desserts;4;;nem
+62;Riz saut√© √† l‚Äôail;;accompagniments;5;;rizAil
+63;Riz nature parfum√©;;accompagniments;2;;riz
+64;Banh Mi porc laqu√©;;sandwichs;8;;banhMi
+65;Banh Mi au boeuf √† la citronnelle;;sandwichs;8;;banhMi
+66;Maki: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);maki
+67;Maki: Avocat cheese/Ch√®vre miel/Concombre chees;;japon;6;(8pcs);maki
+68;Maki: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);maki
+69;Maki: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);maki
+70;Maki: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);maki
+71;Maki: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);maki
+72;Maki: Avocat/Concombre;;japon;4.5;(8pcs);maki
+73;California: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);california
+74;California: Avocat cheese/Ch√®vre miel/Concombre chees;;japon;6;(8pcs);california
+75;California: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);california
+76;California: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);california
+77;California: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);california
+78;California: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);california
+79;California: Avocat/Concombre;;japon;4.5;(8pcs);california
+80;Saumon rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
+81;Saumon rolls: Avocat cheese/Ch√®vre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
+82;Saumon rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
+83;Saumon rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
+84;Saumon rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
+85;Saumon rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
+86;Saumon rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
+87;Printemps: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);printemps
+88;Printemps: Avocat cheese/Ch√®vre miel/Concombre chees;;japon;6;(8pcs);printemps
+89;Printemps: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);printemps
+90;Printemps: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);printemps
+91;Printemps: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);printemps
+92;Printemps: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);printemps
+93;Printemps: Avocat/Concombre;;japon;4.5;(8pcs);printemps
+94;Neige rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
+95;Neige rolls: Avocat cheese/Ch√®vre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
+96;Neige rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
+97;Neige rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
+98;Neige rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
+99;Neige rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
+100;Neige rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
+101;Signature rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);signatureRolls
+102;Signature rolls: Avocat cheese/Ch√®vre miel/Concombre chees;;japon;6;(8pcs);signatureRolls
+103;Signature rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);signatureRolls
+104;Signature rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);signatureRolls
+105;Signature rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);signatureRolls
+106;Signature rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);signatureRolls
+107;Signature rolls: Avocat/Concombre;;japon;4.5;(8pcs);signatureRolls
+108;Sashimi: Thon ou Saumon;;japon;8;(5pcs);sashimi
+109;Sushi: Thon ou Saumon;;japon;6;(4pcs);sushiThon
+110;Sushi: Crevettes;;japon;6;(4pcs);sushiCrevettes
+111;Sushi: Saumon avocat;;japon;7;(4pcs);sushiSaumonAvocat
+112;Sushi: Saumon cheese;;japon;7;(4pcs);sushiSaumonCheese
+113;Sushi: Crevettes avocat;;japon;7;(4pcs);sushiCrevettesAvocat
+114;'Salade d''algue';;japon;5;;saladeAlgue
+115;Tarte Saumon ou Thon, avocat;;japon;6;;tarteSaumon
+116;Riz vinaigr√©;;japon;2.5;;rizVinaigre
+117;Nem banane-chocolat;;desserts;4;;nemDessert
 118;Litchi au sirop;;desserts;4;;litchi
-119;Banane nappÈ au caramel;;desserts;4;;bananeNappe
-120;Perles de coco;;desserts;4;;perles
-121;ìBanh Boî G‚teau au sucre de palme, lait de coco;;desserts;5;;banhBo
-122;Assiette Asiatique (nougats, gingembre confit);;desserts;5;;assiette
-123;ìChe Chuoiî Tapioca ‡ la banane et au lait de coco;;desserts;5;;cheChuoi
+119;Banane napp√© au caramel;;desserts;4;;bananeNappe
+120;Perles de coco;;desserts;4;;perlesCoco
+121;Banh Bo - G√¢teau au sucre de palme, lait de coco;;desserts;5;;banhBo
+122;Assiette Asiatique (nougats, gingembre confit);;desserts;5;;assietteDessert
+123;‚ÄúChe Chuoi‚Äù Tapioca √† la banane et au lait de coco;;desserts;5;;cheChuoi
 124;Saigon;;drinks;4;;saigon
 125;Asahi;;drinks;4;;asahi
 126;Tsingtao;;drinks;4;;tsingtao
 127;Singha;;drinks;4;;singha
-128;Eau plate (50cl);;drinks;1,5;;eauPlate
-129;Eau pÈtillante (50cl);;drinks;1,5;;eauPetillante
+128;Eau plate (50cl);;drinks;1.5;;eauPlate
+129;Eau p√©tillante (50cl);;drinks;1.5;;eauPetillante
 130;Coca-cola / Coca zero;;drinks;2;;coca
 131;Orangina / Fanta;;drinks;2;;fanta
-132;Lait se soja;;drinks;2,5;;laitSoja
+132;Lait se soja;;drinks;2.5;;laitSoja
 133;Ice tea;;drinks;2;;iceTea
 134;Jus de fruits;litchit, noix de coco, exotique, mangue, orange, ananas, pomme;drinks;2;;jusFruits
