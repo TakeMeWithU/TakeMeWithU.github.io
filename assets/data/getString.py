@@ -16,4 +16,12 @@ lines = file1.readlines()
 lines.pop(0)
 for line in lines:
     line = line.replace('\n', '')
-    print(line)
+    values = line.split(';')
+    html = ''
+    html += '<div class="col-lg-6 menu-item filter-' + values[3] + '">'
+    html += '<img src="assets/img/menu/' + values[3] + '/' + values[6] + '.jpg"' 
+    html += 'class="menu-img" alt="' + values[1] + '"/>'
+    html += '<div class="menu-content"><a>'
+    html += values[1] + '</a><span>' + values[4] + '€</span></div>'
+    html += '<div class="menu-ingredients">'+ values[2] + values[5] +'</div></div>'
+    print(html)
