@@ -1,0 +1,84 @@
+Id ;Meal;Category;Price;Quantity
+1;Nem au porc ou au poulet;Entrée;6;5
+2;Nem aux crevettes;Entrée;6;5
+3;Nem aux légumes;Entrée;5;5
+4;Samoussa au boeuf ou au poulet;Entrée;6;5
+5;Samoussa aux légumes;Entrée;5;5
+6;Beignets de crevettes;Entrée;5;5
+7;Accras de morue;Entrée;6;5
+8;Nuggets de poulet ;Entrée;5;5
+9;Brochette de poulet “Yakitori”;Entrée;6;5
+10;Brochette de boeuf au fromage;Entrée;6;5
+11;Raviolis frit au porc et crevettes;Entrée;6;5
+12;“Xiu mai” aux crevettes;Entrée;6;5
+13;Hakao aux crevettes;Entrée;6;5
+14;Aile de poulet farcie;Entrée;5;1
+15;Crabe farcie;Entrée;5;1
+16;“Banh bao” Brioche à la vapeur;Entrée;3.5;1
+17;Panaché d’entrées à partger(Nems, Samoussas, Beignets de crevettes, Raviolis frits, Xiumai, Hakao, Accras de morue;Entrée;20;20
+18;Rouleaux de printemps au boeuf;Rouleaux;6;2
+19;Rouleaux de printemps aux crevettes;Rouleaux;6;2
+20;Rouleaux de printemps au poulet;Rouleaux;6;2
+21;Rouleaux de printemps végétariens;Rouleaux;6;2
+22;Salade d’ananas aux crevettes;Salade;9;
+23;Salade de poulet croustillant sauce carotte;Salade;9;
+24;Salade de mangue vert au canard;Salade;9;
+25;Salade boeuf cru mariné au citron vert;Salade;12;
+26;“Bo bun nem” Vermicelle de riz, boeuf sauté, nems frits;Salade;10;
+27;“Bo bun tom”Vermicelle de riz, crevettes sautées à la citronnelle, nems frits.;Salade;10;
+28;“Bo bun chay”Vermicelle de riz, tofu sauté aux légumes, nem frits;Salade;8;
+29;Nouilles sautées au porc laqué ou au poulet;Nouilles/Riz;10;
+30;Nouilles sautées aux crevettes ou au boeuf;Nouilles/Riz;12;
+31;Nouilles sautées aux fruits de mer;Nouilles/Riz;14;
+32;Nouilles sautées aux légumes et tofu;Nouilles/Riz;10;
+33;“Pad Thai”Pâtes de riz sautées aux crevettes;Nouilles/Riz;12;
+34;“Pad Thai”Pâtes de riz sautées au poulet;Nouilles/Riz;12;
+35;Riz sauté au porc laqué ou au poulet;Nouilles/Riz;12;
+36;Riz sauté aux crevettes ou au boeuf;Nouilles/Riz;12;
+37;“Pho” Pâtes de riz au boeuf;Soupes;10;
+38;“Bun Bo Hue” Vermicelles de riz au boeuf à la citronnelle;Soupes;10;
+39;“Hu Tieu” Vermicelles de riz aux crevettes et porc laqué;Soupes;10;
+40;Porc au caramel traditionnel poivré;Plats chauds;12;
+41;Porc laqué;Plats chauds;12;
+42;Poulet au curry rouge;Plats chauds;12;
+43;Poulet au gingembre et feuilles de citronnier;Plats chauds;12;
+44;Poulet aux noix de cajou, poivron, oignon;Plats chauds;12;
+45;Seiche au sel et poivre;Plats chauds;14;
+46;Seiche saisie aux 5 épices;Plats chauds;14;
+47;Seiche sautées aux basilic Thai, piments, poivrons;Plats chauds;14;
+48;Boeuf aux oignons;Plats chauds;14;
+49;Boeuf sautées aux basilic Thai, piments, poivrons;Plats chauds;14;
+50;“Bo luc lac” Dés de boeuf marinés et sautés;Plats chauds;14;
+51;Crevettes grillées aux sel et poivre;Plats chauds;12;
+52;Crevettes à la sauce aigre-douce ou piquante;Plats chauds;12;
+53;Crevettes sautées aux basilic Thai, piments, poivrons;Plats chauds;12;
+54;Canard laqué;Plats chauds;14;
+55;Emincé de canard à l’ananas;Plats chauds;14;
+56;Magret de canart mariné au miel et soja;Plats chauds;14;
+57;Pavé de thon grillé à la sauce teriyaki;Plats chauds;14;
+58;Pave de saumon à la sauce piquante ou 5 épices;Plats chauds;14;
+59;Tofu farci aux champignons noirs et vermicelles;Plats chauds;10;
+60;Nouilles sautées aux légumes;Accompagnements;5;
+61;Riz cantonnais;Accompagnements;5;
+62;Riz sauté à l’ail;Accompagnements;5;
+63;Riz nature parfumé;Accompagnements;2;
+64;“Banh Mi” porc laqué;Sandwich;8;
+65;“Banh Mi” boeuf à la citronnelle;Sandwich;8;
+66;Nem banane-chocolat;Desserts;4;
+67;Litchi au sirop;Desserts;4;
+68;Banane nappé au caramel;Desserts;4;
+69;Perles de coco ;Desserts;4;
+70;“Banh Bo” Gâteau au sucre de palme, lait de coco;Desserts;5;
+71;Assiette Asiatique (nougats, gingembre confit);Desserts;5;
+72;“Che Chuoi” Tapioca à la banane et au lait de coco;Desserts;5;
+73;Saigon;Boissons;4;
+74;Asahi;Boissons;4;
+75;Tsingtao;Boissons;4;
+76;Singha;Boissons;4;
+77;Eau plate (50cl);Boissons;1.5;
+78;Eau pétillante (50cl);Boissons;1.5;
+79;Coca-cola / Coca zero;Boissons;2;
+80;Orangina / Fanta;Boissons;2;
+81;Lait se soja;Boissons;2.5;
+82;Ice tea;Boissons;2;
+83;Jus de fruits(litchit, noix de coco, exotique, mangue, orange, ananas, pomme);Boissons;2;
