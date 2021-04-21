@@ -58,78 +58,80 @@ Id;Meal;Description;Category;Price;Quantity;Image
 57;Pavé de thon grillé à la sauce teriyaki;;meals;14;1 accompagnement de votre choix;paveThon
 58;Pave de saumon à la sauce piquante ou 5 épices;;meals;14;1 accompagnement de votre choix;paveSaumon
 59;Tofu farci aux champignons noirs et vermicelles;;meals;10;1 accompagnement de votre choix;tofu
-60;Nouilles sautées aux légumes;;accompagniments;5;;nouilles
-61;Riz cantonnais;;accompagniments;5;;rizCan
-62;Riz sauté à l’ail;;accompagniments;5;;rizAil
-63;Riz nature parfumé;;accompagniments;2;;riz
-64;Banh Mi porc laqué;;sandwichs;8;;banhMi
-65;Banh Mi au boeuf à la citronnelle;;sandwichs;8;;banhMi
-66;Maki: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);maki
-67;Maki: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);maki
-68;Maki: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);maki
-69;Maki: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);maki
-70;Maki: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);maki
-71;Maki: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);maki
-72;Maki: Avocat/Concombre;;japon;4.5;(8pcs);maki
-73;California: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);california
-74;California: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);california
-75;California: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);california
-76;California: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);california
-77;California: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);california
-78;California: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);california
-79;California: Avocat/Concombre;;japon;4.5;(8pcs);california
-80;Saumon rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
-81;Saumon rolls: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
-82;Saumon rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
-83;Saumon rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
-84;Saumon rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
-85;Saumon rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
-86;Saumon rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
-87;Printemps: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);printemps
-88;Printemps: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);printemps
-89;Printemps: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);printemps
-90;Printemps: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);printemps
-91;Printemps: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);printemps
-92;Printemps: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);printemps
-93;Printemps: Avocat/Concombre;;japon;4.5;(8pcs);printemps
-94;Neige rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
-95;Neige rolls: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
-96;Neige rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
-97;Neige rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
-98;Neige rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
-99;Neige rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
-100;Neige rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
-101;Signature rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);signatureRolls
-102;Signature rolls: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);signatureRolls
-103;Signature rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);signatureRolls
-104;Signature rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);signatureRolls
-105;Signature rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);signatureRolls
-106;Signature rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);signatureRolls
-107;Signature rolls: Avocat/Concombre;;japon;4.5;(8pcs);signatureRolls
-108;Sashimi: Thon ou Saumon;;japon;8;(5pcs);sashimi
-109;Sushi: Thon ou Saumon;;japon;6;(4pcs);sushiThon
-110;Sushi: Crevettes;;japon;6;(4pcs);sushiCrevettes
-111;Sushi: Saumon avocat;;japon;7;(4pcs);sushiSaumonAvocat
-112;Sushi: Saumon cheese;;japon;7;(4pcs);sushiSaumonCheese
-113;Sushi: Crevettes avocat;;japon;7;(4pcs);sushiCrevettesAvocat
-114;'Salade d''algue';;japon;5;;saladeAlgue
-115;Tarte Saumon ou Thon, avocat;;japon;6;;tarteSaumon
-116;Riz vinaigré;;japon;2.5;;rizVinaigre
-117;Nem banane-chocolat;;desserts;4;;nemDessert
-118;Litchi au sirop;;desserts;4;;litchi
-119;Banane nappé au caramel;;desserts;4;;bananeNappe
-120;Perles de coco;;desserts;4;;perlesCoco
-121;Banh Bo - Gâteau au sucre de palme, lait de coco;;desserts;5;;banhBo
-122;Assiette Asiatique (nougats, gingembre confit);;desserts;5;;assietteDessert
-123;“Che Chuoi” Tapioca à la banane et au lait de coco;;desserts;5;;cheChuoi
-124;Saigon;;drinks;4;;saigon
-125;Asahi;;drinks;4;;asahi
-126;Tsingtao;;drinks;4;;tsingtao
-127;Singha;;drinks;4;;singha
-128;Eau plate (50cl);;drinks;1.5;;eauPlate
-129;Eau pétillante (50cl);;drinks;1.5;;eauPetillante
-130;Coca-cola / Coca zero;;drinks;2;;coca
-131;Orangina / Fanta;;drinks;2;;fanta
-132;Lait se soja;;drinks;2.5;;laitSoja
-133;Ice tea;;drinks;2;;iceTea
-134;Jus de fruits;litchit, noix de coco, exotique, mangue, orange, ananas, pomme;drinks;2;;jusFruits
+60;Nouilles sautées aux légumes;;accompaniments;5;;nouilles
+61;Riz cantonnais;;accompaniments;5;;rizCan
+62;Riz sauté à l’ail;;accompaniments;5;;rizAil
+63;Riz nature parfumé;;accompaniments;2;;riz
+64;Banh Xeo – Crêpe vietnamienne;Porc, crevettes et pousses de soja;specialty;12;;banhXeo
+65;Banh Cuon – Raviolis à la vapeur;Porc, champignons noirs et oignon;specialty;12;;banhCuon
+66;Banh Mi porc laqué;;sandwichs;8;;banhMi
+67;Banh Mi au boeuf à la citronnelle;;sandwichs;8;;banhMi
+68;Maki: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);maki
+69;Maki: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);maki
+70;Maki: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);maki
+71;Maki: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);maki
+72;Maki: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);maki
+73;Maki: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);maki
+74;Maki: Avocat/Concombre;;japon;4.5;(8pcs);maki
+75;California: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);california
+76;California: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);california
+77;California: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);california
+78;California: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);california
+79;California: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);california
+80;California: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);california
+81;California: Avocat/Concombre;;japon;4.5;(8pcs);california
+82;Saumon rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
+83;Saumon rolls: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
+84;Saumon rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
+85;Saumon rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
+86;Saumon rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
+87;Saumon rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
+88;Saumon rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
+89;Printemps: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);printemps
+90;Printemps: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);printemps
+91;Printemps: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);printemps
+92;Printemps: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);printemps
+93;Printemps: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);printemps
+94;Printemps: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);printemps
+95;Printemps: Avocat/Concombre;;japon;4.5;(8pcs);printemps
+96;Neige rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);saumonRolls
+97;Neige rolls: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);saumonRolls
+98;Neige rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);saumonRolls
+99;Neige rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);saumonRolls
+100;Neige rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);saumonRolls
+101;Neige rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);saumonRolls
+102;Neige rolls: Avocat/Concombre;;japon;4.5;(8pcs);saumonRolls
+103;Signature rolls: Saumon/Saumon avocat/Saumon cheese;;japon;7;(8pcs);signatureRolls
+104;Signature rolls: Avocat cheese/Chèvre miel/Concombre chees;;japon;6;(8pcs);signatureRolls
+105;Signature rolls: Thon/Thon cheese/ Thon avocat;;japon;7;(8pcs);signatureRolls
+106;Signature rolls: Saumon cuit, avocat/Thon cuit, avocat;;japon;6;(8pcs);signatureRolls
+107;Signature rolls: Crevette tempura avocat ou concombre ou cheese;;japon;7;(8pcs);signatureRolls
+108;Signature rolls: Poulet frit avocat ou concombre ou cheese;;japon;6;(8pcs);signatureRolls
+109;Signature rolls: Avocat/Concombre;;japon;4.5;(8pcs);signatureRolls
+110;Sashimi: Thon ou Saumon;;japon;8;(5pcs);sashimi
+111;Sushi: Thon ou Saumon;;japon;6;(4pcs);sushiThon
+112;Sushi: Crevettes;;japon;6;(4pcs);sushiCrevettes
+113;Sushi: Saumon avocat;;japon;7;(4pcs);sushiSaumonAvocat
+114;Sushi: Saumon cheese;;japon;7;(4pcs);sushiSaumonCheese
+115;Sushi: Crevettes avocat;;japon;7;(4pcs);sushiCrevettesAvocat
+116;'Salade d''algue';;japon;5;;saladeAlgue
+117;Tarte Saumon ou Thon, avocat;;japon;6;;tarteSaumon
+118;Riz vinaigré;;japon;2.5;;rizVinaigre
+119;Nem banane-chocolat;;desserts;4;;nemDessert
+120;Litchi au sirop;;desserts;4;;litchi
+121;Banane nappé au caramel;;desserts;4;;bananeNappe
+122;Perles de coco;;desserts;4;;perlesCoco
+123;Banh Bo - Gâteau au sucre de palme, lait de coco;;desserts;5;;banhBo
+124;Assiette Asiatique (nougats, gingembre confit);;desserts;5;;assietteDessert
+125;“Che Chuoi” Tapioca à la banane et au lait de coco;;desserts;5;;cheChuoi
+126;Saigon;Bière vietnamienne;drinks;4;;saigon
+127;Asahi;Bière japonaise;drinks;4;;asahi
+128;Tsingtao;Bière chinoise;drinks;4;;tsingtao
+129;Singha;Bière thailandaise;drinks;4;;singha
+130;Eau plate (50cl);;drinks;1.5;;eauPlate
+131;Eau pétillante (50cl);;drinks;1.5;;eauPetillante
+132;Coca-cola / Coca zero;;drinks;2;;coca
+133;Orangina / Fanta;;drinks;2;;fanta
+134;Lait se soja;;drinks;2.5;;laitSoja
+135;Ice tea;;drinks;2;;iceTea
+136;Jus de fruits;litchit, noix de coco, exotique, mangue, orange, ananas, pomme;drinks;2;;jusFruits
