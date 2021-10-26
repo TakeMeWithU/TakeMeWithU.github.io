@@ -1,209 +1,1032 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Nguyen Thi Thu Huong && MOUFFLET Adeline" />
-    <title>Accueil | Projet TIC 2020</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- CSS Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    <title>L'Atelier de Mi | Restaurant Vietnamien & Japonais | La Rochelle & Surgères</title>
+    <meta
+      name="description"
+      content="Vivez une expérience culinaire unique au coeur de Surgères. Restaurant de My, cuisines vietnamienne et japonaise. "
     />
-    <!-- JS Bootstrap -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta
+      name="keywords"
+      content="restaurant surgeres, restaurant vietnamien, restaurant japonaise, atelier de mi, atelier de my, restaurant de mi, l'atelier de mi, mi la rochelle, traiteur mi"
+    />
+    <meta
+      name="google-site-verification"
+      content="uVgULVlXeWd07-stkkmnX_LWuGgRQ6sk1LpAbdYXsEs"
+    />
+    <link rel="canonical" href="https://latelierdemi.fr/" />
 
-    <!-- CSS Personalisé -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- JS Personalisé -->
-    <script src="js/nav.js"></script>
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
+
   <body>
-    <!-- Header  -->
-    <!-- le tag header utilse une class hero-image défini dans le fichier style.css -->
-    <header class="hero-image" style="margin-bottom: 0">
-      <!-- la class hero-text pour les titres -->
-      <div class="hero-text">
-        <h1>Projet TIC 2020 - 2021</h1>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+      <div class="container d-flex">
+        <div class="contact-info mr-auto">
+          <i class="icofont-phone"></i> 05 16 07 67 62 | 07 89 60 43 17
+          <span class="d-none d-lg-inline-block"
+            ><i class="icofont-clock-time icofont-rotate-180"></i> Mardi -
+            Dimande : 12:00 - 14:00 et 19:00 - 22:00 sur place ou à emporter
+          </span>
+        </div>
+        <!-- <div class="languages">
+        <ul>
+          <li>FR</li>
+          <li><a href="#">De</a></li>
+        </ul>
+      </div> -->
+      </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo mr-auto"><a href="index.html">L'Atelier de Mi</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="#header">Accueil</a></li>
+            <li><a href="#about">À propos du restaurant </a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#specials">Spécialités</a></li>
+            <!-- <li><a href="#events">Évènements</a></li>
+            <li><a href="#gallery">Gallery</a></li> -->
+            <li class="book-a-table text-center">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
       </div>
     </header>
+    <!-- End Header -->
 
-    <!-- Navbar Bootstrap -->
-    <!-- Une fonction js est mis en place pour la navbar. La navbar nous suit lorsque on scrolle vers le bas -->
-    <nav id="navbar_top" class="navbar navbar-expand-xl bg-dark navbar-dark">
-      <a class="navbar-brand" href="index.html">Accueil</a>
-
-      <!-- Au moment de l'ecran d'affichage est petit le nav affiche sous forme en bouton -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Regrouper tous les liens au dessous dans une autre fenetre -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="saga.html">Scooby-Doo et son univers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="scooby.html">Scooby-Doo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sammy.html">Sammy</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="fred.html">Fred Jones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="daphne.html">Daphné Blake</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="vera.html">Véra Dinkley</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="boutique.html">Boutique</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Utiliser la class container de bootstrap -->
-    <div class="container">
-      <!-- Carousel (Diaporama) en utilisant la JS de bootstrap-->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
       <div
-        id="myCarousel"
-        class="carousel slide"
-        data-ride="carousel"
-        style="margin-top: 10px"
+        class="container position-relative text-center text-lg-left"
+        style="padding: 0px"
+        data-aos="zoom-in"
+        data-aos-delay="100"
       >
-        <!-- Indicateurs -->
-        <ul class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-          <li data-target="#myCarousel" data-slide-to="4"></li>
-          <li data-target="#myCarousel" data-slide-to="5"></li>
-        </ul>
+        <div class="row mx-auto">
+          <div class="col-xl-9">
+            <h1>Bienvenue dans <span>l'Atelier de Mi</span></h1>
+            <h2>Vivez une expérience culinaire unique au coeur de Surgères!</h2>
 
-        <!-- les images à glisser dans le diapo -->
-        <div class="carousel-inner bg-dark">
-          <!-- Élément afficher en premier dans le diapo à cause de la classe active -->
-          <div class="carousel-item text-center active">
-            <img
-              src="/images/galery/Saga.jpg"
-              alt="Saga"
-              width="auto"
-              max-width="1100"
-              height="500"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="saga.html">
-                <h5>Scooby Doo - Gros Plan</h5>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <img
-              src="/images/galery/scoobydoo.jpg"
-              alt="Scooby Doo"
-              width="auto"
-              max-width="1100"
-              height="500"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="scooby.html">
-                <h5>Scooby Doo</h5>
-                <p>Personnage dans la série Scooby Doo</p>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <img
-              src="/images/galery//sammy.jpg"
-              alt="Sammy"
-              width="auto"
-              max-width="1100"
-              height="500"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="sammy.html">
-                <h5>Sammy</h5>
-                <p>Personnage dans la série Scooby Doo</p>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <img
-              src="/images/galery//fred.jpeg"
-              alt="Fred Jones"
-              width="auto"
-              max-width="1100"
-              height="500"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="fred.html">
-                <h5>Fred Jones</h5>
-                <p>Personnage dans la série Scooby Doo</p>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <img
-              src="/images/galery//daphne.jpg"
-              alt="Daphné Blake"
-              width="auto"
-              max-width="1100"
-              height="500"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="daphne.html">
-                <h5>Daphné Blake</h5>
-                <p>Personnage dans la série Scooby Doo</p>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <img
-              src="/images/galery/vera.jpg"
-              alt="Vera Dinkley"
-              width="auto"
-              max-width="1100"
-              height="500"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <a href="vera.html">
-                <h5>Véra Dinkley</h5>
-                <p>Personnage dans la série Scooby Doo</p>
-              </a>
+
+            <div class="btns float-right">
+              <a href="#menu" class="btn-menu animated fadeInUp scrollto"
+                >notre menu</a
+              >
+              <!-- <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a> -->
             </div>
           </div>
         </div>
-
-        <!-- Les 2 flèches à controler le diapo-->
-        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
+        <div class="row" style="margin-top: 20px">
+          <div class="col-xl-12">
+            <p>
+              <i class="icofont-info-circle"></i> TOUS LES MIDIS (SAUF LE WEEKEN
+              ET JOURS FÉRIÉS)
+              <b style="color: red"
+                >-20% SUR TOUS LES COMMANDES À PARTIR DE 16€.</b
+              >
+              <br><i>*Hors Boissons</i>
+            </p>
+            <p>
+              <i class="icofont-info-circle"></i> ALLERGIE, RÉGIME SPÉCIAL, NOUS
+              SOMME À VOTRE ÉCOUTE.
+            </p>
+          </div>
+        </div>
       </div>
-      
-      
-    </div>
-    <!-- Un footer classique avec la classe jumbotron, les textes centrés -->
-    <footer
-      class="jumbotron text-center bg-dark text-light"
-      style="margin-bottom: 0px"
-    >
-      <h3>@Copyright NGUYEN Thi Thu Huong && MOUFFLET Adeline</h3>
-      <h5>2020-2021</h5>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-6 order-1 order-lg-2"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="about-img">
+                <!-- TODO change this photo -->
+                <img src="assets/img/about.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>Soyez les bienvenus,</h3>
+              <p>
+                En commençant par la vente au marché avec une passion d'emmener
+                la cuisine traditionnelle vietnamienne en France. Un grand merci
+                à tous nos clients pour leurs fidilité et leur confiance. Grâce
+                à vous, nous pourrions avancer un grans pas dans cette aventure.
+              </p>
+              <ul>
+                <li>
+                  <i class="icofont-check-circled"></i> Le savoir-faire
+                  culinaire, un héritage important à partager.
+                </li>
+                <li>
+                  <i class="icofont-check-circled"></i> L'art culinaire dans
+                  l'histoire.
+                </li>
+                <li>
+                  <i class="icofont-check-circled"></i> Contribuer par sa
+                  prestation à la fidélisation de la clientèle et à son
+                  développement.
+                </li>
+              </ul>
+              <p>
+                Venez découvrir notre restaurant, vous serez amené à voyager mon
+                pays avec nos plats si imprégnés et atypiques. Passion et
+                savoir-faire animent notre désir de vous satisfaire.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Pourquoi nous</h2>
+            <p>Pourquoi choisir notre restaurant</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                <span>01</span>
+                <h4>L'originalité des plats</h4>
+                <p>
+                  Cette originalité transparaît en premier lieu dans les noms
+                  mais également, et surtout, dans la présentation et le goût !
+                  Et on finira par rappeler l’importance de l’hygiène !
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                <span>02</span>
+                <h4>Le fait maison</h4>
+                <p>
+                  Tous nos plats sont faits maison, avec des produits frais et
+                  de saison. <br /><br /><br /><br />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                <span>03</span>
+                <h4>Le rapport qualité/prix</h4>
+                <p>
+                  Lorsque l’on recherche un restaurant pour dîner en famille ou
+                  pour la pause déjeuner entre collègues, nous sommes nombreux
+                  (et pour cause!) à nous soucier du rapport qualité-prix.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Why Us Section -->
+
+      <!-- ======= Menu Section ======= -->
+      <section id="menu" class="menu section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Menu - Sur place - À emporter</h2>
+            <p>Découvrir nos savoureux menus</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">Tous</li>
+                <li data-filter=".filter-starters">Entrées</li>
+                <li data-filter=".filter-rolls">Rouleaux</li>
+                <li data-filter=".filter-salads">Salades</li>
+                <li data-filter=".filter-noodlesRices">Nouilles/Riz</li>
+                <li data-filter=".filter-soups">Soupes</li>
+                <li data-filter=".filter-meals">Plats chauds</li>
+                <li data-filter=".filter-accompaniments">Accompagements</li>
+                <li data-filter=".filter-yakitori">Brochettes Yakitori</li>
+                <li data-filter=".filter-japon">Au coin du Japon</li>
+                <li data-filter=".filter-desserts">Desserts</li>
+                <li data-filter=".filter-drinks">Boissons</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row menu-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <!-- Start of Menu -->
+            <div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Nem au porc ou au poulet</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Nem aux crevettes</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Nem aux légumes</a><span>5€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Samoussa au boeuf</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Samoussa aux légumes</a><span>5€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Beignets de crevettes</a><span>5€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Accras de morue</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Nuggets de poulet</a><span>5€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Raviolis frit au porc et crevettes</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Xiumai aux porc et crevettes</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Hakao aux porc et crevettes</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Aile de poulet farcie</a><span>5€</span></div><div class="menu-ingredients">(1pc)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Crabe farcie</a><span>5€</span></div><div class="menu-ingredients">(1pc)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Banh bao - Brioche à la vapeur</a><span>3.5€</span></div><div class="menu-ingredients">(1pc)</div></div>
+<div class="col-lg-6 menu-item filter-starters"><div class="menu-content"><a>Panaché d'entrées à partger</a><span>20€</span></div><div class="menu-ingredients">Nems, Samoussas, Beignets de crevettes, Raviolis frits, Xiumai, Hakao, Accras de morue(20pcs)</div></div>
+<div class="col-lg-6 menu-item filter-rolls"><div class="menu-content"><a>Rouleaux de printemps au boeuf</a><span>6€</span></div><div class="menu-ingredients">(2pcs)</div></div>
+<div class="col-lg-6 menu-item filter-rolls"><div class="menu-content"><a>Rouleaux de printemps aux crevettes</a><span>6€</span></div><div class="menu-ingredients">(2pcs)</div></div>
+<div class="col-lg-6 menu-item filter-rolls"><div class="menu-content"><a>Rouleaux de printemps au poulet</a><span>6€</span></div><div class="menu-ingredients">(2pcs)</div></div>
+<div class="col-lg-6 menu-item filter-rolls"><div class="menu-content"><a>Rouleaux de printemps végétariens</a><span>6€</span></div><div class="menu-ingredients">(2pcs)</div></div>
+<div class="col-lg-6 menu-item filter-salads"><div class="menu-content"><a>Salade d’ananas aux crevettes</a><span>9€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-salads"><div class="menu-content"><a>Salade de poulet croustillant sauce carotte</a><span>9€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-salads"><div class="menu-content"><a>Salade de mangue vert au canard</a><span>9€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-salads"><div class="menu-content"><a>Salade boeuf cru mariné au citron vert</a><span>12€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-salads"><div class="menu-content"><a>Bo Bun Nem - Vermicelle de riz, boeuf sauté, nems frits.</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-salads"><div class="menu-content"><a>Bo Bun Tom - Vermicelle de riz, crevettes sautées à la citronnelle.</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-salads"><div class="menu-content"><a>Bo Bun Chay - Vermicelle de riz, tofu sauté aux légumes.</a><span>8€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Nouilles sautées au porc laqué ou au poulet</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Nouilles sautées aux crevettes ou au boeuf</a><span>12€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Nouilles sautées aux fruits de mer</a><span>14€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Nouilles sautées aux légumes et tofu</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Pad Thai - Pâtes de riz sautées aux crevettes</a><span>12€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Pad Thai - Pâtes de riz sautées au poulet</a><span>12€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Riz sauté au porc laqué ou au poulet</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-noodlesRices"><div class="menu-content"><a>Riz sauté aux crevettes ou au boeuf</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-soups"><div class="menu-content"><a>Pho - Pâtes de riz au boeuf</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-soups"><div class="menu-content"><a>Bun Bo Hue - Vermicelles de riz au boeuf à la citronnelle</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-soups"><div class="menu-content"><a>Hu Tieu - Vermicelles de riz aux crevettes et porc laqué</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Porc au caramel traditionnel poivré</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Porc laqué</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Poulet au curry rouge</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Poulet au gingembre et feuilles de citronnier</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Poulet aux noix de cajou, poivron, oignon</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Seiche au sel et poivre</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Seiche saisie aux 5 épices</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Seiche sautées aux basilic Thai, piments, poivrons</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Boeuf aux oignons</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Bo Luc Lac - Dés de boeuf marinés et sautés</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Crevettes grillées aux sel et poivre</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Crevettes à la sauce aigre-douce ou piquante</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Crevettes au curry ou à la citronnelle</a><span>12€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Canard laqué</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Emincé de canard à l’ananas</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Magret de canard mariné au miel et soja</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Pavé de thon grillé à la sauce aigre-douce ou piquante</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-meals"><div class="menu-content"><a>Pavé de saumon à la sauce piquante ou 5 épices</a><span>14€</span></div><div class="menu-ingredients">1 accompagnement de votre choix</div></div>
+<div class="col-lg-6 menu-item filter-accompaniments"><div class="menu-content"><a>Nouilles sautées aux légumes</a><span>5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-accompaniments"><div class="menu-content"><a>Riz cantonnais</a><span>5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-accompaniments"><div class="menu-content"><a>Riz sauté à l’ail</a><span>5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-accompaniments"><div class="menu-content"><a>Riz nature parfumé</a><span>2€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Maki thon cru ou cuit</a><span>6€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Maki saumon</a><span>6€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Maki avocat</a><span>6€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Maki poulet frit</a><span>6€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Maki crevette tempura</a><span>6€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Neige rolls saumon ou thon</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Neige rolls crevette tempura</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Neige rolls fromage chèvre miel</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Neige rolls poulet frit</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Neige rolls thon</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Neige rolls végétariens</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>California saumon ou thon</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>California crevette tempura</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>California fromage chèvre miel</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>California poulet frit</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>California thon</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>California végétariens</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Printemps saumon ou thon</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Printemps crevette tempura</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Printemps fromage chèvre miel</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Printemps poulet frit</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Printemps thon</a><span>7€</span></div><div class="menu-ingredients">avec/sans avocat ou concombre ou cheese(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Printemps végétariens</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Saumon rolls avocat</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Saumon rolls cheese</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Saumon rolls concombre</a><span>7€</span></div><div class="menu-ingredients">(6pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Sashimi: Thon ou Saumon</a><span>8€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Sushi: Thon ou Saumon</a><span>7€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Sushi: Crevettes</a><span>7€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Sushi: Saumon avocat</a><span>7€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Sushi: Thon ou Saumon avec cheese</a><span>7€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Sushi: Crevettes avocat</a><span>7€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Salade d'algue</a><span>5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Sashimi Bowl</a><span>10€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-japon"><div class="menu-content"><a>Riz vinaigré</a><span>2.5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-dessert"><div class="menu-content"><a>Nem banane-chocolat</a><span>4€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-dessert"><div class="menu-content"><a>Litchi au sirop</a><span>4€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-dessert"><div class="menu-content"><a>Banane nappé au caramel</a><span>4€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-dessert"><div class="menu-content"><a>Perles de coco</a><span>4€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-dessert"><div class="menu-content"><a>Banh Bo - Gâteau au sucre de palme, lait de coco</a><span>5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-dessert"><div class="menu-content"><a>Assiette Asiatique (nougats, gingembre confit)</a><span>5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-dessert"><div class="menu-content"><a>Che Chuoi - Tapioca à la banane et au lait de coco</a><span>5€</span></div><div class="menu-ingredients"></div></div>
+<div class="col-lg-6 menu-item filter-yakitori"><div class="menu-content"><a>Yakitori poulet</a><span>6€</span></div><div class="menu-ingredients">(5pcs)</div></div>
+<div class="col-lg-6 menu-item filter-yakitori"><div class="menu-content"><a>Yakitori boulettes de poulet</a><span>6€</span></div><div class="menu-ingredients">(3pcs)</div></div>
+<div class="col-lg-6 menu-item filter-yakitori"><div class="menu-content"><a>Yakitori boeuf gouda</a><span>6€</span></div><div class="menu-ingredients">(3pcs)</div></div>
+<div class="col-lg-6 menu-item filter-yakitori"><div class="menu-content"><a>Yakitori saumon</a><span>6€</span></div><div class="menu-ingredients">(2pcs)</div></div>
+<div class="col-lg-6 menu-item filter-yakitori"><div class="menu-content"><a>Assiette "Yakitori Party"</a><span>16€</span></div><div class="menu-ingredients">2 saumon, 2 boeuf, 2 boulettes de poulet, 4 poulet</div></div>
+            <!-- End of Menu -->
+          </div>
+        </div>
+      </section>
+      <!-- End Menu Section -->
+
+      <!-- ======= Specials Section ======= -->
+      <section id="specials" class="specials">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Spécialités</h2>
+            <p>Découvrir nos spécialités</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-3">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active show"
+                    data-toggle="tab"
+                    href="#tab-1"
+                    >Pho</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#tab-2"
+                    >Bun Bo Hue</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#tab-3"
+                    >Hu Tieu</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#tab-4"
+                    >Banh Xeo</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#tab-5"
+                    >Banh Cuon</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-9 mt-4 mt-lg-0">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Vietnam : Phở bò – Soupe Pho au boeuf</h3>
+                      <p class="font-italic"></p>
+                      <p>
+                        Mon meilleur souvenir de phở est celui de mon enfance.
+                        La grosse marmite, tel un chaudron magique contenant
+                        plein de mystères, fumait à petits bouillons pendant des
+                        heures. On attendait son bol de soupe avec autant de
+                        ferveur que devant un miracle. Et le miracle se
+                        produisit : une explosion gustative dès le premier
+                        contact des papilles avec ce liquide brûlant parfumé
+                        d’épices et d’herbes magiques ! L’attente qui parut des
+                        siècles en valait vraiment la peine. Et jamais ma soupe
+                        phở n’a pu atteindre ce degré de perfection gustative !
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/specials-1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Bun Bo Huê</h3>
+                      <p class="font-italic">
+                        soupe de nouilles de riz épicées au boeuf à la mode de
+                        Huê
+                      </p>
+                      <p>
+                        Pays de soupes, le Vietnam offre une grande variété de
+                        soupes constituant à elles seules un repas complet.
+                        Parmi celles-ci, on retrouve les fameuses soupes
+                        emblématiques des trois régions du Vietnam : le Phở
+                        (soupe Pho) du nord, la soupe Hủ tiếu Mỹ Tho dite soupe
+                        saïgonnaise dans le sud et la soupe Bún Bò Huế (bún =
+                        vermicelles ou pâtes de riz / bò = bœuf / Huế = de la
+                        ville de Huê, centre du Vietnam), une spécialité de Huê
+                        très appréciée par les Vietnamiens et surtout par mon
+                        grand-père paternel, fin gastronome ! Dans cette région,
+                        en particulier à Huê, capitale gastronomique réputée au
+                        Vietnam, sa cuisine est particulièrement parfumée et
+                        pimentée, exigeant un savoir-faire et des préparations
+                        culinaires plus longues et complexes que les autres
+                        régions. Sans doute les vestige et héritage
+                        gastronomiques du temps de la dynastie Nguyễn à Huế.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/specials-2.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Hủ tiếu Nam Vang</h3>
+                      <p class="font-italic">soupe Phnom Penh</p>
+                      <p>
+                        Si vous allez à Hô-Chi-Minh-ville (ex Saïgon), ne
+                        manquez surtout pas cette merveilleuse soupe de nouilles
+                        Hủ Tiếu Nam Vang (littéralement soupe de nouilles Phnom
+                        Penh) au petit-déjeuner ou à n'importe quelle heure de
+                        la journée ! Dans la rue, au marché, dans une gargote ou
+                        même à l’hôtel, vous trouverez ce délicieux plat partout
+                        dans la ville. C'est l'un de mes premiers souvenirs
+                        gustatifs du pays, mon premier repas au réveil à Saïgon,
+                        mais aussi un souvenir d’enfance marquant où déguster
+                        cette soupe me semblait toujours être un moment festif,
+                        celle dont on savoure au restaurant et rarement à la
+                        maison. Et pour cause, vous le comprendrez en parcourant
+                        la recette ci-après, c'est un plat très long à réaliser
+                        lorsque c’est fait dans les règles de l’art.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/specials-3.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Bánh xèo</h3>
+                      <p class="font-italic">
+                        Crêpe vietnamienne farcie aux crevettes et au porc
+                      </p>
+                      <p>
+                        Le bánh xèo est un plat du sud qui trouve
+                        vraisemblablement ses racines dans le centre du Vietnam.
+                        Dans la ville de Huê (ancienne capitale impériale du
+                        Vietnam), il y a l’emblématique bánh khoái, une
+                        spécialité de Huê, d’aspect et de garniture très
+                        similaires au bánh xèo du sud, mais de plus petite
+                        taille, avec une composition de pâte, de sauce et
+                        d’accompagnement de végétaux légèrement différents.
+                        J’aurai l’occasion d’en parler en détail dans un des
+                        futurs articles. Ci-dessous, une photo de bánh khoái
+                        dégusté dans une gargote à Huê.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/specials-4.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Bánh cuốn</h3>
+                      <p class="font-italic">
+                        Raviolis vietnamiens au porc et aux champignons noirs
+                      </p>
+                      <p>
+                        Retour au Vietnam avec un des plats populaires typiques
+                        du Nord du Vietnam : le bánh cuốn. Ce sont des raviolis
+                        vietnamiens à base de farine de riz, farcis à la viande
+                        de porc haché et aux champignons noirs et parsemés
+                        d’oignons frits, qui se dégustent chauds et arrosés de
+                        sauce nuoc mam préparé, accompagnés de lamelles de
+                        mortadelle vietnamienne (giò lụa ou chả lụa – connu
+                        aussi sous le nom de « pâté de porc » vietnamien), de
+                        germes de haricots mungo et de coriandre fraîche. Au
+                        Vietnam, on les mange au petit-déjeuner. Hors du pays et
+                        en Occident, ces raviolis vietnamiens s’invitent plutôt
+                        au déjeuner ou au dîner, en entrée.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/specials-5.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Specials Section -->
+
+      <!-- ======= Events Section ======= -->
+      <!-- <section id="events" class="events">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Events</h2>
+            <p>Organize Your Events in our Restaurant</p>
+          </div>
+
+          <div
+            class="owl-carousel events-carousel"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="row event-item">
+              <div class="col-lg-6">
+                <img
+                  src="assets/img/event-birthday.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 content">
+                <h3>Birthday Parties</h3>
+                <div class="price">
+                  <p><span>$189</span></p>
+                </div>
+                <p class="font-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <ul>
+                  <li>
+                    <i class="icofont-check-circled"></i> Ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat.
+                  </li>
+                  <li>
+                    <i class="icofont-check-circled"></i> Duis aute irure dolor
+                    in reprehenderit in voluptate velit.
+                  </li>
+                  <li>
+                    <i class="icofont-check-circled"></i> Ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat.
+                  </li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+
+            <div class="row event-item">
+              <div class="col-lg-6">
+                <img
+                  src="assets/img/event-private.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 content">
+                <h3>Private Parties</h3>
+                <div class="price">
+                  <p><span>$290</span></p>
+                </div>
+                <p class="font-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <ul>
+                  <li>
+                    <i class="icofont-check-circled"></i> Ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat.
+                  </li>
+                  <li>
+                    <i class="icofont-check-circled"></i> Duis aute irure dolor
+                    in reprehenderit in voluptate velit.
+                  </li>
+                  <li>
+                    <i class="icofont-check-circled"></i> Ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat.
+                  </li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+
+            <div class="row event-item">
+              <div class="col-lg-6">
+                <img
+                  src="assets/img/event-custom.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-6 pt-4 pt-lg-0 content">
+                <h3>Custom Parties</h3>
+                <div class="price">
+                  <p><span>$99</span></p>
+                </div>
+                <p class="font-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <ul>
+                  <li>
+                    <i class="icofont-check-circled"></i> Ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat.
+                  </li>
+                  <li>
+                    <i class="icofont-check-circled"></i> Duis aute irure dolor
+                    in reprehenderit in voluptate velit.
+                  </li>
+                  <li>
+                    <i class="icofont-check-circled"></i> Ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat.
+                  </li>
+                </ul>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- End Events Section -->
+
+      <!-- ======= Gallery Section ======= -->
+      <!-- <section id="gallery" class="gallery">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <p>Some photos from Our Restaurant</p>
+          </div>
+        </div>
+
+        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+          <div class="row no-gutters">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-1.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-1.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-2.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-2.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-3.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-4.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-4.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-5.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-5.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-6.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-6.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-7.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-7.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-8.jpg"
+                  class="venobox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-8.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- End Gallery Section -->
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contacter Nous</p>
+          </div>
+        </div>
+
+        <div data-aos="fade-up">
+          <iframe
+            style="border: 0; width: 100%; height: 350px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2766.4237671099477!2d-0.7565652825561613!3d46.10246229999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48012f3ed5dba0b1%3A0x6e41194688f0fb0a!2sL&#39;Atelier%20de%20Mi!5e0!3m2!1sfr!2sfr!4v1618947072895!5m2!1sfr!2sfr"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Adresse:</h4>
+                  <p>32 AV SAINT PIERRE, 17700 SURGÈRES</p>
+                </div>
+
+                <div class="open-hours">
+                  <i class="icofont-clock-time icofont-rotate-90"></i>
+                  <h4>Horaires d'ouverture:</h4>
+                  <p>
+                    Mardi-Dimande:<br />
+                    12h00 - 14h00<br />
+                    19h00 - 22h00
+                  </p>
+                </div>
+
+                <div class="email">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>latelierdemi17@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="icofont-phone"></i>
+                  <h4>Téléphone:</h4>
+                  <p>05 16 07 67 62</p>
+                  <p>07 89 60 43 17</p>
+                </div>
+
+                <div class="social-links mt-3">
+                  <a
+                    href="https://www.facebook.com/mylarochelle"
+                    class="facebook"
+                    ><i
+                      style="color: white; margin-right: 5px"
+                      class="icofont-facebook"
+                    ></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/latelierdemi17/"
+                    class="instagram"
+                    ><i
+                      style="color: white; margin-right: 5px"
+                      class="bx bxl-instagram"
+                    ></i
+                  ></a>
+                  <a href="https://g.page/atelierdemi-17?we" class="google-plus"
+                    ><i
+                      style="color: white; margin-right: 5px"
+                      class="bx bxl-google"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <h3>Rejoindre nous au marché autour de La Rochelle:</h3>
+              </br><h4>-----MATIN-----</h4>
+              <div class="row">
+                <div class="col-5 mt-lg-0">
+                  <h4>Mercredi:</h4>
+                </div>
+                <div class="col-5 mt-lg-0">
+                  <h4>Courçon</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 mt-lg-0">
+                  <h4>Jeudi:</h4>
+                </div>
+                <div class="col-5 mt-lg-0">
+                  <h4>Surgères</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 mt-lg-0">
+                  <h4>Vendredi:</h4>
+                </div>
+                <div class="col-5 mt-lg-0">
+                  <h4>Lagord</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 mt-lg-0">
+                  <h4>Samedi:</h4>
+                </div>
+                <div class="col-5 mt-lg-0">
+                  <h4>Surgères</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5 mt-lg-0">
+                  <h4>Dimance:</h4>
+                </div>
+                <div class="col-5 mt-lg-0">
+                  <h4>Nieul sur Mer</h4>
+                </div>
+              </div>
+            </br><h4>-----APRES-MIDI-----</h4>
+            <div class="row">
+              <div class="col-5 mt-lg-0">
+                <h4>Vendredi:</h4>
+              </div>
+              <div class="col-5 mt-lg-0">
+                <h4>Périgny</h4>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>L'Atelier de Mi</span></strong
+          >. Tous droit réservés
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
     </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
