@@ -153,7 +153,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 40px;
 }
 .btn-custom {
-	text-transform: uppercase;
 	color: #fff;
 	background-color: #3C91E6;
 	border: 0;
